@@ -1,0 +1,11 @@
+python test.py \
+--source ../data/images \
+--name marucod_test \
+--conf-thres 0.05 \
+--filter-thres 0.8 \
+--ood-thres 95 \
+--view-img \
+--no-save \
+--save-boundary-data \
+--threshold_path ./ood/cache/threshold/BisectingKMeans_k30_cosineSim_resnet50_s128_SeaShips.json \
+--distribution_path ./ood/cache/distribution/BisectingKMeans_k30_resnet50_s128_SeaShips.pkl

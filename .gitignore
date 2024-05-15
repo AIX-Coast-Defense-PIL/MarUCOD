@@ -1,0 +1,18 @@
+# outputs
+*/cache*/
+*/scores/
+runs/
+*/output*/
+
+# cache files
+*__pycache__
+
+# pt
+*/weights/
+ood/backbone/
+*traced_model.pt
+
+# inferface
+*.spec
+build/
+dist/
